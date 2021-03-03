@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Crimson Pro', serif;
+  box-sizing: border-box;
+}
+
+body {
+background-image: linear-gradient(120deg, #FFE47A, #3D7EAA);
+min-height: 100vh;
+}
+
+.container {
+  max-width: 50rem;
+  margin: auto;
+  padding: 0.625rem;
+}
+
+.txtab {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background:none;
+  padding: 0.625rem;
+  outline: none;
+  font-size: 1.125rem;
+}
+
+h3 {
+  margin: 0.625rem 0;
+}
+
+.task {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  padding: 1.125rem;
+  margin: 0.375rem 0;
+  overflow: hidden;
+}
+
+.task i {
+  float: right;
+  margin-left: 1.25rem;
+  cursor: pointer;
+}
+
+.compl .task {
+  background:rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
